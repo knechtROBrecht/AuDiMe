@@ -1,0 +1,7 @@
+AuDiMe
+===================
+Ziel von AuDiMe(„Audio Distance Measuring“) ist eine Entfernungsmessung über Audiosignale. Dazu sollen 2 bis 3 Smartphones mit dem Betriebssystem Android verwendet werden. Dabei fungiert ein Smartphone als Sender, welches das Audiosignal ausgibt. Die Empfänger erkennen dieses Audiosignal und können über den Zeitunterschied des Sendens und Empfangens des Audiosignals die Entfernung zum Sendergerät ermitteln. Für die Synchronisation der Zeiten der Smartphones wird zunächst das NTP Protokoll ausgeführt. Die Kommunikation findet über Bluetooth statt, so dass  keine weiteren Geräte für die Ausführung der Entfernungsmessung notwendig sind.
+
+Anwendung
+-------------
+Es handelt sich bei AuDiMe um eine Android APP. Sie kann auf jedem Android Gerät ab Version 4.1 ausgeführt werden. Zunächst wird die Rolle des Androidgeräts ausgewählt (Sender oder Empfänger). Danach kann über die Schaltfläche Starten die jeweilige Aktivität gestartet werden. Der Sender muss zusätzlich noch die Anzahl an Zeitsynchronisationsrunden (>1) einstellen und die Bluetooth-Geräte die als Empfänger fungieren auswählen. Die Bluetoothgeräte müssen vor der Ausführung von AuDiMe bereits bekannt sein.
